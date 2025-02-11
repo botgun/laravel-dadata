@@ -17,7 +17,7 @@ trait HasAddressMethod
     {
         $method = Str::studly($method);
 
-        if (class_exists($class = "MoveMoveApp\\DaData2\\Methods\\Address\\{$method}Method")) {
+        if (class_exists($class = "BotGun\\DaData\\Methods\\Address\\{$method}Method")) {
             return $class;
         }
 

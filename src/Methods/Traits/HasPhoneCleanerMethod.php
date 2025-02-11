@@ -17,7 +17,7 @@ trait HasPhoneCleanerMethod
     {
         $method = Str::studly($method);
 
-        if (class_exists($class = "MoveMoveApp\\DaData2\\Methods\\Phone\\{$method}Method")) {
+        if (class_exists($class = "BotGun\\DaData\\Methods\\Phone\\{$method}Method")) {
             return $class;
         }
 
