@@ -5,11 +5,42 @@ namespace BotGun\DaData\Objects\Organization\Ru;
 use BotGun\DaData\Objects\BaseObject;
 
 /**
- * @property int|null       $kpp
- * @property Capital        $capital
- * @property string         $invalid
- * @property Management     $management
- * @property Citizenship    $citizenship
+ * @property integer $inn
+ * @property integer|null $kpp
+ * @property integer|null $ogrn
+ * @property string|null $ogrn_date
+ * @property string|null $hid
+ * @property string $type
+ * @property Name|null $name
+ * @property Fio|null $fio
+ * @property string|null $okato
+ * @property string|null $oktmo
+ * @property string|null $okpo
+ * @property string|null $okogu
+ * @property string|null $okfs
+ * @property string|null $okved
+ * @property string|null $okved_type
+ * @property Opf|null $opf
+ * @property Okveds|null $okveds
+ * @property Management[] $management
+ * @property integer|null $branch_count
+ * @property string|null $branch_type
+ * @property Address|null $address
+ * @property State|null $state
+ * @property integer|null $employee_count
+ * @property Finance|null $finance
+ * @property Authorities|null $authorities
+ * @property Citizenship|null $citizenship
+ * @property Founder[]|null $founders
+ * @property Manager[]|null $managers
+ * @property Predecessor|null $predecessors
+ * @property Successor[]|null $successors
+ * @property Capital|null $capital
+ * @property boolean|null $invalid
+ * @property Document|null $documents
+ * @property License|null $licenses
+ * @property OrganizationPhone[]|null $phones
+ * @property OrganizationEmail[]|null $emails
  */
 class Organization extends BaseObject
 {
