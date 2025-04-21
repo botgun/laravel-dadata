@@ -14,6 +14,6 @@ class Address extends BaseObject
     protected array $attributes = [
         'value'                 => 'string|null',
         'unrestricted_value'    => 'string|null',
-        'data'                  => 'Organization\\Ru\\GranularAddress'
+        'data'                  => 'Address\\Address'
     ];
 }
