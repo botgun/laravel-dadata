@@ -113,7 +113,7 @@ class Router
      */
     public static function suggestOrganization(): string
     {
-        return 'rs/suggest/party';
+        return 'rs/findById/party';
     }
 
     /**
