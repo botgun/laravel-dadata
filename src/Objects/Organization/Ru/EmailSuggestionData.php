@@ -9,11 +9,10 @@ use BotGun\DaData\Objects\Email\Email;
  * @property Email $email
  * @property Company $company
  */
-class EmailSuggestions extends BaseObject
+class EmailSuggestionData extends BaseObject
 {
     protected array $attributes = [
-        'value'                 => 'string|null',
-        'unrestricted_value'    => 'string|null',
-        'data'                  => ''
+        'email'     => 'Email\\Email',
+        'company'   => 'Organization\\Ru\\Company',
     ];
 }
