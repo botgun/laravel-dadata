@@ -21,7 +21,7 @@ use BotGun\DaData\Objects\BaseObject;
  * @property string|null $okved
  * @property string|null $okved_type
  * @property Opf|null $opf
- * @property Okveds|null $okveds
+ * @property Okveds[]|null $okveds
  * @property Management[] $management
  * @property integer|null $branch_count
  * @property string|null $branch_type
@@ -61,7 +61,7 @@ class Organization extends BaseObject
         'okved'             => 'string|null',
         'okved_type'        => 'string|null',
         'opf'               => 'Organization\\Ru\\Opf',
-        'okveds'            => 'Organization\\Ru\\Okveds',
+        'okveds'            => 'Organization\\Ru\\Okveds[]',
         'management'        => 'Organization\\Ru\\Management',
         'branch_count'      => 'integer|null',
         'branch_type'       => 'string|null',
