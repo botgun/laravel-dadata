@@ -9,7 +9,8 @@ use BotGun\DaData\Methods\BaseMethod;
 /**
  * Reverse geocoding
  *
- * Reverse geocoding (address by coordinates) has been implemented to find the nearest addresses (houses, streets, cities) based on geographic coordinates.
+ * Reverse geocoding (address by coordinates) has been implemented to find the nearest addresses (houses, streets,
+ * cities) based on geographic coordinates.
  *
  * @note: This service is available exclusively for Russia.
  *

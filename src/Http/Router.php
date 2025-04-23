@@ -156,4 +156,12 @@ class Router
         return 'rs/geolocate/address';
     }
 
+    /**
+     * @return string
+     */
+    public static function findByIdAddress(): string
+    {
+        return 'rs/findById/address';
+    }
+
 }
