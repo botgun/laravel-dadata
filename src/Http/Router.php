@@ -191,6 +191,14 @@ class Router
     /**
      * @return string
      */
+    public static function cleanVehicle(): string
+    {
+        return 'clean/vehicle';
+    }
+
+    /**
+     * @return string
+     */
     public static function geoLocateAddress(): string
     {
         return 'rs/geolocate/address';

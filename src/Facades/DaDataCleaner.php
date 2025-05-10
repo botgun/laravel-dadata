@@ -10,6 +10,7 @@ use Illuminate\Support\Facades\Facade;
  * @method static phone(string[] $array)
  * @method static passport(string[] $array)
  * @method static email(string[] $array)
+ * @method static vehicle(string[] $array)
  */
 class DaDataCleaner extends Facade
 {
