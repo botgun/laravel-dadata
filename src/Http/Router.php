@@ -175,6 +175,22 @@ class Router
     /**
      * @return string
      */
+    public static function cleanPassport(): string
+    {
+        return 'clean/passport';
+    }
+
+    /**
+     * @return string
+     */
+    public static function cleanEmail(): string
+    {
+        return 'clean/email';
+    }
+
+    /**
+     * @return string
+     */
     public static function geoLocateAddress(): string
     {
         return 'rs/geolocate/address';

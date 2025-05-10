@@ -5,11 +5,12 @@ namespace BotGun\DaData\Objects\Email;
 use BotGun\DaData\Objects\BaseObject;
 
 /**
- * @property string|null    $local
- * @property string|null    $domain
- * @property string|null    $type
- * @property string|null    $source
- * @property string|null    $qc
+ * @property string|null $source
+ * @property string|null $email
+ * @property string|null $local
+ * @property string|null $domain
+ * @property string|null $type
+ * @property string|null $qc
  */
 class Email extends BaseObject
 {
