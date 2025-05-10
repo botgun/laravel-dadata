@@ -9,6 +9,7 @@ use Illuminate\Support\Facades\Facade;
  * @method static geoLocate(string[] $array)
  * @method static suggestPostal(string[] $array)
  * @method static findById(string[] $array)
+ * @method static suggestCountry(string[] $array)
  */
 class DaDataAddress extends Facade
 {
