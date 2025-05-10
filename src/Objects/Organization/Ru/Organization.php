@@ -51,7 +51,7 @@ class Organization extends BaseObject
         'ogrn_date'         => 'string|null',
         'hid'               => 'string|null',
         'type'              => 'string',
-        'name'              => 'Organization\\Ru\\Name',
+        'name'              => 'Organization\\Ru\\CleanName',
         'fio'               => 'Organization\\Ru\\Fio',
         'okato'             => 'string|null',
         'oktmo'             => 'string|null',

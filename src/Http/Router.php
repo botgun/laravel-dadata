@@ -143,9 +143,25 @@ class Router
     /**
      * @return string
      */
+    public static function suggestName(): string
+    {
+        return 'rs/suggest/fio';
+    }
+
+    /**
+     * @return string
+     */
     public static function cleanAddress(): string
     {
         return 'clean/address';
+    }
+
+    /**
+     * @return string
+     */
+    public static function cleanName(): string
+    {
+        return 'clean/name';
     }
 
     /**

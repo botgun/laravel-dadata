@@ -3,12 +3,12 @@
 namespace BotGun\DaData;
 
 use BotGun\DaData\Http\Router;
-use BotGun\DaData\Traits\HasAddressCleanerMethod;
+use BotGun\DaData\Traits\HasCleanerMethod;
 
 
-class CleanerAddressApi extends Api
+class CleanerApi extends Api
 {
-    use HasAddressCleanerMethod;
+    use HasCleanerMethod;
 
     public function __construct()
     {

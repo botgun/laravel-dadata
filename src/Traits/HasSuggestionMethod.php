@@ -1,11 +1,11 @@
 <?php
 
-namespace BotGun\DaData\Methods\Traits;
+namespace BotGun\DaData\Traits;
 
-use Illuminate\Support\Str;
 use BotGun\DaData\Exceptions\DaDataMethodExceptions;
+use Illuminate\Support\Str;
 
-trait HasAddressCleanerMethod
+trait HasSuggestionMethod
 {
     /**
      * @param string $method
@@ -17,7 +17,7 @@ trait HasAddressCleanerMethod
     {
         $method = Str::studly($method);
 
-        if (class_exists($class = "BotGun\\DaData\\Methods\\Cleaner\\Address\\{$method}Method")) {
+        if (class_exists($class = "BotGun\\DaData\\Methods\\Suggestion\\{$method}Method")) {
             return $class;
         }
 
