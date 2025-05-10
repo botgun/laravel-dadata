@@ -6,6 +6,7 @@ use Illuminate\Support\Facades\Facade;
 
 /**
  * @method static name(string[] $array)
+ * @method static address(string[] $array)
  */
 class DaDataCleaner extends Facade
 {
