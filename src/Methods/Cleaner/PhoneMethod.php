@@ -1,10 +1,10 @@
 <?php
 
-namespace BotGun\DaData\Methods\Phone;
+namespace BotGun\DaData\Methods\Cleaner;
 
-use GuzzleHttp\Client;
 use BotGun\DaData\Http\Router;
 use BotGun\DaData\Methods\BaseMethod;
+use GuzzleHttp\Client;
 
 /**
  * Phone Number Standardization
@@ -18,7 +18,7 @@ use BotGun\DaData\Methods\BaseMethod;
  * @link https://dadata.ru/api/clean/phone/
  * @property string $query
  */
-class CleanMethod extends BaseMethod
+class PhoneMethod extends BaseMethod
 {
     protected string $method        = 'POST';
     protected string $entryPoint;
