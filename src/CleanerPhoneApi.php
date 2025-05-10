@@ -3,8 +3,7 @@
 namespace BotGun\DaData;
 
 use BotGun\DaData\Http\Router;
-use BotGun\DaData\Methods\Traits\HasAddressCleanerMethod;
-use BotGun\DaData\Methods\Traits\HasPhoneCleanerMethod;
+use BotGun\DaData\Traits\HasPhoneCleanerMethod;
 
 
 class CleanerPhoneApi extends Api

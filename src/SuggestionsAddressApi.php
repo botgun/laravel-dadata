@@ -3,7 +3,7 @@
 namespace BotGun\DaData;
 
 use BotGun\DaData\Http\Router;
-use BotGun\DaData\Methods\Traits\HasAddressMethod;
+use BotGun\DaData\Traits\HasAddressMethod;
 
 
 class SuggestionsAddressApi extends Api

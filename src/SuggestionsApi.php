@@ -3,12 +3,13 @@
 namespace BotGun\DaData;
 
 use BotGun\DaData\Http\Router;
-use BotGun\DaData\Traits\HasOrganizationMethod;
+use BotGun\DaData\Traits\HasAddressMethod;
+use BotGun\DaData\Traits\HasSuggestionMethod;
 
 
-class SuggestionsOrganizationApi extends Api
+class SuggestionsApi extends Api
 {
-    use HasOrganizationMethod;
+    use HasSuggestionMethod;
 
     public function __construct()
     {

@@ -12,6 +12,6 @@ class Citizenship extends BaseObject
 {
     protected array $attributes = [
         'code' => 'Organization\\Ru\\Code',
-        'name' => 'Organization\\Ru\\Name',
+        'name' => 'Organization\\Ru\\CleanName',
     ];
 }

@@ -23,6 +23,13 @@ class DaDataServiceProvider extends ServiceProvider
         $this->app->singleton('dadata_phone', function () {
             return new CleanerPhoneApi();
         });
+
+        $this->app->singleton('dadata_cleaner', function () {
+            return new CleanerApi();
+        });
+        $this->app->singleton('dadata_suggestions', function () {
+            return new SuggestionsApi();
+        });
     }
 
     /**
