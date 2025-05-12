@@ -3,7 +3,6 @@
 namespace BotGun\DaData;
 
 use BotGun\DaData\Http\Router;
-use BotGun\DaData\Traits\HasAddressMethod;
 use BotGun\DaData\Traits\HasSuggestionMethod;
 
 
