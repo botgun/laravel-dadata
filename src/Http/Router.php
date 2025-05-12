@@ -175,6 +175,14 @@ class Router
     /**
      * @return string
      */
+    public static function findBankById(): string
+    {
+        return 'rs/findById/bank';
+    }
+
+    /**
+     * @return string
+     */
     public static function suggestCarBrand(): string
     {
         return 'rs/suggest/car_brand';

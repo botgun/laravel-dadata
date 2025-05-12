@@ -10,6 +10,7 @@ use Illuminate\Support\Facades\Facade;
  * @method static email(string[] $array)
  * @method static carBrand(string[] $array)
  * @method static bank(string[] $array)
+ * @method static bankById(string[] $array)
  */
 class DaDataSuggestions extends Facade
 {
