@@ -3,8 +3,6 @@
 namespace BotGun\DaData\Objects\Email;
 
 use BotGun\DaData\Objects\BaseObject;
-use BotGun\DaData\Objects\Name\Name;
-use BotGun\DaData\Objects\Passport\Fms;
 
 /**
  * @property string $value
