@@ -167,6 +167,14 @@ class Router
     /**
      * @return string
      */
+    public static function suggestCarBrand(): string
+    {
+        return 'rs/suggest/car_brand';
+    }
+
+    /**
+     * @return string
+     */
     public static function cleanAddress(): string
     {
         return 'clean/address';

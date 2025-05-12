@@ -8,6 +8,7 @@ use Illuminate\Support\Facades\Facade;
  * @method static name(string[] $array)
  * @method static passport(string[] $array)
  * @method static email(string[] $array)
+ * @method static carBrand(string[] $array)
  */
 class DaDataSuggestions extends Facade
 {
