@@ -3,7 +3,6 @@
 namespace BotGun\DaData\Objects\Vehicle;
 
 use BotGun\DaData\Objects\BaseObject;
-use BotGun\DaData\Objects\Name\SuggestionsName;
 
 /**
  * @property SuggestionsCarBrand[] $suggestions
