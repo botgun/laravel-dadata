@@ -159,6 +159,14 @@ class Router
     /**
      * @return string
      */
+    public static function suggestEmail(): string
+    {
+        return 'rs/suggest/email';
+    }
+
+    /**
+     * @return string
+     */
     public static function cleanAddress(): string
     {
         return 'clean/address';
