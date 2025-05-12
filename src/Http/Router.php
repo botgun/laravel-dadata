@@ -151,6 +151,14 @@ class Router
     /**
      * @return string
      */
+    public static function suggestPassport(): string
+    {
+        return 'rs/suggest/fms_unit';
+    }
+
+    /**
+     * @return string
+     */
     public static function cleanAddress(): string
     {
         return 'clean/address';

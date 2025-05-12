@@ -6,6 +6,7 @@ use Illuminate\Support\Facades\Facade;
 
 /**
  * @method static name(string[] $array)
+ * @method static passport(string[] $array)
  */
 class DaDataSuggestions extends Facade
 {
