@@ -8,10 +8,10 @@ use BotGun\DaData\Http\Router;
 use BotGun\DaData\Methods\BaseMethod;
 
 /**
- * Directory of Organizations and Individual Entrepreneurs of Belarus.
+ * Directory of Organizations and Individual Entrepreneurs of Kazakhstan.
  *
  *
- * @link https://dadata.ru/api/suggest/party_by/
+ * @link https://dadata.ru/api/suggest/party_kz/
  *
  * @property string     $query      Query text
  */

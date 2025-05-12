@@ -1,13 +1,14 @@
 <?php
 
-namespace BotGun\DaData\Methods\Cleaner\Address;
+namespace BotGun\DaData\Methods\Cleaner;
 
-use GuzzleHttp\Client;
 use BotGun\DaData\Http\Router;
 use BotGun\DaData\Methods\BaseMethod;
+use GuzzleHttp\Client;
 
 /**
  * Address Standardization
+ *
  * Our address standardization service offers comprehensive and precise handling of address data, tailored specifically for locations within Russia.
  * Here's what our service includes:
  *  - Field Segmentation: Breaks down addresses into distinct components such as region, city, street, building, and apartment.
@@ -23,7 +24,7 @@ use BotGun\DaData\Methods\BaseMethod;
  * @link https://dadata.ru/api/clean/address/
  * @property string $query
  */
-class CleanMethod extends BaseMethod
+class AddressMethod extends BaseMethod
 {
     protected string $method        = 'POST';
     protected string $entryPoint;

@@ -151,6 +151,46 @@ class Router
     /**
      * @return string
      */
+    public static function suggestPassport(): string
+    {
+        return 'rs/suggest/fms_unit';
+    }
+
+    /**
+     * @return string
+     */
+    public static function suggestEmail(): string
+    {
+        return 'rs/suggest/email';
+    }
+
+    /**
+     * @return string
+     */
+    public static function suggestBank(): string
+    {
+        return 'rs/suggest/bank';
+    }
+
+    /**
+     * @return string
+     */
+    public static function findBankById(): string
+    {
+        return 'rs/findById/bank';
+    }
+
+    /**
+     * @return string
+     */
+    public static function suggestCarBrand(): string
+    {
+        return 'rs/suggest/car_brand';
+    }
+
+    /**
+     * @return string
+     */
     public static function cleanAddress(): string
     {
         return 'clean/address';
@@ -170,6 +210,30 @@ class Router
     public static function cleanPhone(): string
     {
         return 'clean/phone';
+    }
+
+    /**
+     * @return string
+     */
+    public static function cleanPassport(): string
+    {
+        return 'clean/passport';
+    }
+
+    /**
+     * @return string
+     */
+    public static function cleanEmail(): string
+    {
+        return 'clean/email';
+    }
+
+    /**
+     * @return string
+     */
+    public static function cleanVehicle(): string
+    {
+        return 'clean/vehicle';
     }
 
     /**

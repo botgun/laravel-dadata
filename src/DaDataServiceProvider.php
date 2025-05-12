@@ -17,13 +17,6 @@ class DaDataServiceProvider extends ServiceProvider
         $this->app->singleton('dadata_address', function () {
             return new SuggestionsAddressApi();
         });
-        $this->app->singleton('dadata_address_cleaner', function () {
-            return new CleanerAddressApi();
-        });
-        $this->app->singleton('dadata_phone', function () {
-            return new CleanerPhoneApi();
-        });
-
         $this->app->singleton('dadata_cleaner', function () {
             return new CleanerApi();
         });
