@@ -5,11 +5,15 @@ namespace BotGun\DaData\Objects\Name;
 use BotGun\DaData\Objects\BaseObject;
 
 /**
- * @property SuggestionsName[] $suggestions
+ * @property string $value
+ * @property string $unrestricted_value
+ * @property Name $data
  */
-class Suggestions extends BaseObject
+class SuggestionsName extends BaseObject
 {
     protected array $attributes = [
-        'suggestions' => 'Name\\SuggestionsName[]',
+        'value'                 => 'string',
+        'unrestricted_value'    => 'string',
+        'data'                  => 'Name\\Name',
     ];
 }
