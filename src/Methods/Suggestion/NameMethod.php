@@ -21,7 +21,7 @@ use BotGun\DaData\Methods\BaseMethod;
  * - Transliterate (Juliia Somova → Yulia Somova).
  * - Decline by cases (who? to whom? by whom?).
  *
- * @NOTE: Suggestions are not suitable for automatic processing of full names. They offer options, but do not guarantee that they guessed correctly. Therefore, the final decision should always be made by a person.
+ * @NOTE: Suggestion are not suitable for automatic processing of full names. They offer options, but do not guarantee that they guessed correctly. Therefore, the final decision should always be made by a person.
  *
  * For automatic processing, transliteration and declension by cases, use the Standardization API
  *
@@ -32,7 +32,7 @@ class NameMethod extends BaseMethod
 {
     protected string $method        = 'POST';
     protected string $entryPoint;
-    protected string $expect        = 'Name\\Suggestions';
+    protected string $expect        = 'Name\\Suggestion';
     protected array  $parameters    = [
         'query' => 'string',
     ];

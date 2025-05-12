@@ -9,7 +9,7 @@ use BotGun\DaData\Objects\BaseObject;
  * @property string $unrestricted_value
  * @property Name $data
  */
-class SuggestionsName extends BaseObject
+class Suggestions extends BaseObject
 {
     protected array $attributes = [
         'value'                 => 'string',

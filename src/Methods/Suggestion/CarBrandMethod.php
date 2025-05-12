@@ -18,7 +18,7 @@ class CarBrandMethod extends BaseMethod
 {
     protected string $method        = 'POST';
     protected string $entryPoint;
-    protected string $expect        = 'Vehicle\\Suggestions';
+    protected string $expect        = 'Vehicle\\Suggestion';
     protected array  $parameters    = [
         'query' => 'string',
     ];

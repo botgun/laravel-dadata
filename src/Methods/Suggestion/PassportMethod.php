@@ -21,7 +21,7 @@ class PassportMethod extends BaseMethod
 {
     protected string $method        = 'POST';
     protected string $entryPoint;
-    protected string $expect        = 'Passport\\Suggestions';
+    protected string $expect        = 'Passport\\Suggestion';
     protected array  $parameters    = [
         'query' => 'string',
     ];

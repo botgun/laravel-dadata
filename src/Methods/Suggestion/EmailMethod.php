@@ -30,7 +30,7 @@ class EmailMethod extends BaseMethod
 {
     protected string $method        = 'POST';
     protected string $entryPoint;
-    protected string $expect        = 'Email\\Suggestions';
+    protected string $expect        = 'Email\\Suggestion';
     protected array  $parameters    = [
         'query' => 'string',
     ];
