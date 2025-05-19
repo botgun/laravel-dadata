@@ -1,6 +1,6 @@
 <?php
 
-namespace BotGun\DaData\Http;
+namespace MoveMoveApp\DaData\Http;
 
 class Router
 {

@@ -1,11 +1,10 @@
 {
-    "name": "botgun/dadata",
+    "name": "movemoveapp/laravel-dadata2",
     "description": "A Laravel SDK for interacting with the DaData API, providing seamless integration for address validation, data enrichment, and other data processing features.",
     "type": "library",
     "license": "MIT",
     "keywords": [
         "movemove",
-        "botgun",
         "dadata",
         "laravel",
         "sdk",
@@ -17,17 +16,17 @@
         "patronymic",
         "surname"
     ],
-    "version": "2.1.0",
+    "version": "2.1.1",
     "autoload": {
         "psr-4": {
-            "BotGun\\DaData\\": "src/"
+            "MoveMoveApp\\DaData\\": "src/"
         }
     },
     "authors": [
         {
             "name": "Dmitry Kovalev",
             "email": "d.kovalev@movemove.com.ru",
-            "homepage": "https://botgun.ru",
+            "homepage": "https://movemove.com.ru",
             "role": "Developer"
         }
     ],

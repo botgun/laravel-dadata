@@ -1,9 +1,9 @@
 <?php
 
-namespace BotGun\DaData\Methods\Cleaner;
+namespace MoveMoveApp\DaData\Methods\Cleaner;
 
-use BotGun\DaData\Http\Router;
-use BotGun\DaData\Methods\BaseMethod;
+use MoveMoveApp\DaData\Http\Router;
+use MoveMoveApp\DaData\Methods\BaseMethod;
 use GuzzleHttp\Client;
 
 /**

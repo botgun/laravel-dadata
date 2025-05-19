@@ -1,10 +1,10 @@
 <?php
 
-namespace BotGun\DaData\Methods\Suggestion;
+namespace MoveMoveApp\DaData\Methods\Suggestion;
 
 use GuzzleHttp\Client;
-use BotGun\DaData\Http\Router;
-use BotGun\DaData\Methods\BaseMethod;
+use MoveMoveApp\DaData\Http\Router;
+use MoveMoveApp\DaData\Methods\BaseMethod;
 
 /**
  * Autocomplete as you type ("hints")

@@ -1,6 +1,6 @@
 <?php
 
-namespace BotGun\DaData\Facades;
+namespace MoveMoveApp\DaData\Facades;
 
 use Illuminate\Support\Facades\Facade;
 

@@ -1,11 +1,17 @@
-# <a href="https://botgun.ru/" target="_blank"><img src="https://avatars.githubusercontent.com/u/121749444?s=400&u=682a6bac6ba993a2a90ec220cfa205540d9d684b&v=4" width="20"></a> DaData Laravel SDK Package
-[![Latest Stable Version](http://poser.pugx.org/botgun/dadata/v)](https://packagist.org/packages/botgun/dadata)
-[![Total Downloads](http://poser.pugx.org/botgun/dadata/downloads)](https://packagist.org/packages/botgun/dadata)
-[![Latest Unstable Version](http://poser.pugx.org/botgun/dadata/v/unstable)](https://packagist.org/packages/botgun/dadata)
-[![License](http://poser.pugx.org/botgun/dadata/license)](https://packagist.org/packages/botgun/dadata)
-[![PHP Version Require](http://poser.pugx.org/botgun/dadata/require/php)](https://packagist.org/packages/botgun/dadata)
+# <a href="https://MoveMoveApp.ru/" target="_blank"><img src="https://avatars.githubusercontent.com/u/121749444?s=400&u=682a6bac6ba993a2a90ec220cfa205540d9d684b&v=4" width="20"></a> DaData Laravel SDK Package
+[![Latest Stable Version](http://poser.pugx.org/MoveMoveApp/dadata/v)](https://packagist.org/packages/MoveMoveApp/dadata)
+[![Total Downloads](http://poser.pugx.org/MoveMoveApp/dadata/downloads)](https://packagist.org/packages/MoveMoveApp/dadata)
+[![Latest Unstable Version](http://poser.pugx.org/MoveMoveApp/dadata/v/unstable)](https://packagist.org/packages/MoveMoveApp/dadata)
+[![License](http://poser.pugx.org/MoveMoveApp/dadata/license)](https://packagist.org/packages/MoveMoveApp/dadata)
+[![PHP Version Require](http://poser.pugx.org/MoveMoveApp/dadata/require/php)](https://packagist.org/packages/MoveMoveApp/dadata)
 
-DaData is an SDK designed to facilitate easy interaction with the DaData API, allowing seamless integration of DaData functionalities within your Laravel applications. This package supports address and company data management for Russia, Belarus, and Kazakhstan.
+DaData is an SDK designed to facilitate easy interaction with the DaData API, allowing seamless integration of DaData functionalities within your Laravel applications. This package supports address and company data management for Russia, Belarus, and Kazakhstan. `movemoveapp/laravel-dadata2` is the second version of the original [movemoveapp/laravel-dadata](https://github.com/movemoveapp/laravel-dadata) package, built with a new and improved approach.
+
+This version addresses a wide range of bugs and issues discovered in the first release, offering a more stable and maintainable integration with the DaData API.
+
+> **Note**  
+> The original [movemoveapp/laravel-dadata](https://github.com/movemoveapp/laravel-dadata) package is no longer maintained and should not be used in new projects.
+
 
 - [Features](#features)
 - [Installation](#installation)
@@ -43,7 +49,7 @@ DaData is an SDK designed to facilitate easy interaction with the DaData API, al
 Install the package via Composer:
 
 ```shell
-composer require botgun/dadata
+composer require movemoveapp/laravel-dadata2
 ```
 
 ## Register the Service Provider
@@ -55,7 +61,7 @@ Up to and including Laravel 10, add the following line to the providers array in
 ...
 'providers' => [
     ...
-    BotGun\DaData\DaDataServiceProvider::class,
+    MoveMoveApp\DaData\DaDataServiceProvider::class,
     
     ...
 ]
@@ -68,7 +74,7 @@ From Laravel versions 11 and above, you may edit `bootstrap/providers.php` file:
 
 return [
     ...
-    BotGun\DaData\DaDataServiceProvider::class,
+    MoveMoveApp\DaData\DaDataServiceProvider::class,
 ];
 
 ```
@@ -78,7 +84,7 @@ return [
 After installation, publish the configuration file to set up the package with Laravel:
 
 ```shell
-php artisan vendor:publish --provider='BotGun\DaData\DaDataServiceProvider'
+php artisan vendor:publish --provider='MoveMoveApp\DaData\DaDataServiceProvider'
 ```
 
 # Configuration
@@ -115,7 +121,7 @@ Use this facade to search and autocomplete legal entities and individual entrepr
 #### Basic Usage
 
 ```php
-use BotGun\DaData\Facades\DaDataOrganization;
+use MoveMoveApp\DaData\Facades\DaDataOrganization;
 
 DaDataOrganization::suggestOrganization([
     'query' => 'мувмув'
@@ -160,7 +166,7 @@ DaDataOrganization::suggestOrganization([
 Use this method to retrieve exact information about a Russian company or individual entrepreneur by INN, OGRN, or full name. Unlike the general suggestions, this method performs a precise match and returns full organization data — perfect for backend checks, form validation, or compliance workflows.
 
 ```php
-use BotGun\DaData\Facades\DaDataOrganization;
+use MoveMoveApp\DaData\Facades\DaDataOrganization;
 
 DaDataOrganization::findRussianOrganization([
     'query'         => (string) $innOrOgrn,
@@ -195,7 +201,7 @@ The following data types can be standardized (cleaned):
 ### Address Standardization
 
 ```php
-use BotGun\DaData\Facades\DaDataCleaner;
+use MoveMoveApp\DaData\Facades\DaDataCleaner;
 
 DaDataCleaner::address('Красная площадь, дом 1');
 ```
@@ -218,7 +224,7 @@ DaDataCleaner::address('Красная площадь, дом 1');
 ### Name Standardization
 
 ```php
-use BotGun\DaData\Facades\DaDataCleaner;
+use MoveMoveApp\DaData\Facades\DaDataCleaner;
 
 DaDataCleaner::name('иванов иван');
 ```
@@ -235,7 +241,7 @@ DaDataCleaner::name('иванов иван');
 ### Phone Standardization
 
 ```php
-use BotGun\DaData\Facades\DaDataCleaner;
+use MoveMoveApp\DaData\Facades\DaDataCleaner;
 
 DaDataCleaner::phone('+7 (999) 123-45-67');
 ```
@@ -256,7 +262,7 @@ DaDataCleaner::phone('+7 (999) 123-45-67');
 ⚠️ Note: Due to issues with the МВД database, data is current as of June 21, 2023.
 
 ```php
-use BotGun\DaData\Facades\DaDataCleaner;
+use MoveMoveApp\DaData\Facades\DaDataCleaner;
 
 DaDataCleaner::passport('1234 567890');
 ```
@@ -273,7 +279,7 @@ DaDataCleaner::passport('1234 567890');
 ### Email Standardization
 
 ```php
-use BotGun\DaData\Facades\DaDataCleaner;
+use MoveMoveApp\DaData\Facades\DaDataCleaner;
 
 DaDataCleaner::email('ivan@yande.ru');
 ```
@@ -292,7 +298,7 @@ DaDataCleaner::email('ivan@yande.ru');
 ### Vehicle Standardization
 
 ```php
-use BotGun\DaData\Facades\DaDataCleaner;
+use MoveMoveApp\DaData\Facades\DaDataCleaner;
 
 DaDataCleaner::vehicle('Форд Фокус');
 ```
@@ -311,7 +317,7 @@ Use this facade to implement autocomplete features in forms or UIs. All methods 
 ### Name Suggestion
 
 ```php
-use BotGun\DaData\Facades\DaDataSuggestions;
+use MoveMoveApp\DaData\Facades\DaDataSuggestions;
 
 DaDataSuggestions::name(['query' => 'иван']);
 ```
@@ -328,7 +334,7 @@ DaDataSuggestions::name(['query' => 'иван']);
 ### Passport Unit Suggestion
 
 ```php
-use BotGun\DaData\Facades\DaDataSuggestions;
+use MoveMoveApp\DaData\Facades\DaDataSuggestions;
 
 DaDataSuggestions::passport(['query' => '770-']);
 ```
@@ -344,7 +350,7 @@ DaDataSuggestions::passport(['query' => '770-']);
 ### Email Suggestion
 
 ```php
-use BotGun\DaData\Facades\DaDataSuggestions;
+use MoveMoveApp\DaData\Facades\DaDataSuggestions;
 
 DaDataSuggestions::email(['query' => 'ivan@yand']);
 ```
@@ -360,7 +366,7 @@ DaDataSuggestions::email(['query' => 'ivan@yand']);
 ### Car Brand Suggestion
 
 ```php
-use BotGun\DaData\Facades\DaDataSuggestions;
+use MoveMoveApp\DaData\Facades\DaDataSuggestions;
 
 DaDataSuggestions::carBrand(['query' => 'фо']);
 ```
@@ -376,7 +382,7 @@ DaDataSuggestions::carBrand(['query' => 'фо']);
 ### Bank Suggestion
 
 ```php
-use BotGun\DaData\Facades\DaDataSuggestions;
+use MoveMoveApp\DaData\Facades\DaDataSuggestions;
 
 DaDataSuggestions::bank(['query' => 'сбербанк']);
 ```
@@ -392,7 +398,7 @@ DaDataSuggestions::bank(['query' => 'сбербанк']);
 ### Bank Lookup by ID
 
 ```php
-use BotGun\DaData\Facades\DaDataSuggestions;
+use MoveMoveApp\DaData\Facades\DaDataSuggestions;
 
 DaDataSuggestions::bankById(['query' => '044525225']);
 ```

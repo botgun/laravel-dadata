@@ -1,9 +1,9 @@
 <?php
 
-namespace BotGun\DaData;
+namespace MoveMoveApp\DaData;
 
-use BotGun\DaData\Http\Router;
-use BotGun\DaData\Traits\HasAddressMethod;
+use MoveMoveApp\DaData\Http\Router;
+use MoveMoveApp\DaData\Traits\HasAddressMethod;
 
 
 class SuggestionsAddressApi extends Api

@@ -1,10 +1,10 @@
 <?php
 
-namespace BotGun\DaData\Methods\Address;
+namespace MoveMoveApp\DaData\Methods\Address;
 
 use GuzzleHttp\Client;
-use BotGun\DaData\Http\Router;
-use BotGun\DaData\Methods\BaseMethod;
+use MoveMoveApp\DaData\Http\Router;
+use MoveMoveApp\DaData\Methods\BaseMethod;
 
 /**
  * Address Suggest

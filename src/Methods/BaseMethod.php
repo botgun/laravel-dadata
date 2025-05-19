@@ -1,9 +1,9 @@
 <?php
 
-namespace BotGun\DaData\Methods;
+namespace MoveMoveApp\DaData\Methods;
 
-use BotGun\DaData\Exceptions\DaDataIntegrationException;
-use BotGun\DaData\Helpers\Type;
+use MoveMoveApp\DaData\Exceptions\DaDataIntegrationException;
+use MoveMoveApp\DaData\Helpers\Type;
 use GuzzleHttp\Client;
 use GuzzleHttp\Exception\ClientException;
 use GuzzleHttp\Exception\GuzzleException;

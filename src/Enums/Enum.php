@@ -1,6 +1,6 @@
 <?php
 
-namespace BotGun\DaData\Enums;
+namespace MoveMoveApp\DaData\Enums;
 
 trait Enum
 {

@@ -1,8 +1,8 @@
 <?php
 
-namespace BotGun\DaData\Objects\Vehicle;
+namespace MoveMoveApp\DaData\Objects\Vehicle;
 
-use BotGun\DaData\Objects\BaseObject;
+use MoveMoveApp\DaData\Objects\BaseObject;
 
 /**
  * @property Suggestions[] $suggestions

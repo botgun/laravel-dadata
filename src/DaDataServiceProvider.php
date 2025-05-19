@@ -1,6 +1,6 @@
 <?php
 
-namespace BotGun\DaData;
+namespace MoveMoveApp\DaData;
 
 use Illuminate\Support\ServiceProvider;
 

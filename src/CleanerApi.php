@@ -1,9 +1,9 @@
 <?php
 
-namespace BotGun\DaData;
+namespace MoveMoveApp\DaData;
 
-use BotGun\DaData\Http\Router;
-use BotGun\DaData\Traits\HasCleanerMethod;
+use MoveMoveApp\DaData\Http\Router;
+use MoveMoveApp\DaData\Traits\HasCleanerMethod;
 
 
 class CleanerApi extends Api

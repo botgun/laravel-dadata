@@ -1,6 +1,6 @@
 <?php
 
-namespace BotGun\DaData\Exceptions;
+namespace MoveMoveApp\DaData\Exceptions;
 
 use Exception;
 

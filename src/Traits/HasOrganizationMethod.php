@@ -1,8 +1,8 @@
 <?php
 
-namespace BotGun\DaData\Traits;
+namespace MoveMoveApp\DaData\Traits;
 
-use BotGun\DaData\Exceptions\DaDataMethodExceptions;
+use MoveMoveApp\DaData\Exceptions\DaDataMethodExceptions;
 use Illuminate\Support\Str;
 
 trait HasOrganizationMethod
@@ -17,7 +17,7 @@ trait HasOrganizationMethod
     {
         $method = Str::studly($method);
 
-        if (class_exists($class = "BotGun\\DaData\\Methods\\Organization\\{$method}Method")) {
+        if (class_exists($class = "MoveMoveApp\\DaData\\Methods\\Organization\\{$method}Method")) {
             return $class;
         }
 

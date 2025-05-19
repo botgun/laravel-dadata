@@ -1,11 +1,11 @@
 <?php
 
-namespace BotGun\DaData\Methods\Organization;
+namespace MoveMoveApp\DaData\Methods\Organization;
 
 
 use GuzzleHttp\Client;
-use BotGun\DaData\Http\Router;
-use BotGun\DaData\Methods\BaseMethod;
+use MoveMoveApp\DaData\Http\Router;
+use MoveMoveApp\DaData\Methods\BaseMethod;
 
 /**
  * Directory of Organizations and Individual Entrepreneurs of Kazakhstan.

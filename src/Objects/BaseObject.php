@@ -1,13 +1,13 @@
 <?php
 
-namespace BotGun\DaData\Objects;
+namespace MoveMoveApp\DaData\Objects;
 
 use ArrayIterator;
 use Illuminate\Support\Arr;
 use IteratorAggregate;
 use JsonSerializable;
-use BotGun\DaData\Exceptions\DaDataIntegrationException;
-use BotGun\DaData\Helpers\Type;
+use MoveMoveApp\DaData\Exceptions\DaDataIntegrationException;
+use MoveMoveApp\DaData\Helpers\Type;
 use Traversable;
 
 abstract class BaseObject implements IteratorAggregate, JsonSerializable

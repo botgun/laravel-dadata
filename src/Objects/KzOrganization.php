@@ -1,8 +1,8 @@
 <?php
 
-namespace BotGun\DaData\Objects;
+namespace MoveMoveApp\DaData\Objects;
 
-use BotGun\DaData\Objects\Organization\Kz\Suggest;
+use MoveMoveApp\DaData\Objects\Organization\Kz\Suggest;
 
 /**
  * @property Suggest[] $suggestions

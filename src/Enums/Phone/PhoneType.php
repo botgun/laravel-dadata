@@ -1,8 +1,8 @@
 <?php
 
-namespace BotGun\DaData\Enums\Phone;
+namespace MoveMoveApp\DaData\Enums\Phone;
 
-use BotGun\DaData\Enums\Enum;
+use MoveMoveApp\DaData\Enums\Enum;
 
 enum PhoneType: string
 {

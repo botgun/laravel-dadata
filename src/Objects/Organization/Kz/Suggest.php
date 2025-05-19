@@ -1,8 +1,8 @@
 <?php
 
-namespace BotGun\DaData\Objects\Organization\Kz;
+namespace MoveMoveApp\DaData\Objects\Organization\Kz;
 
-use BotGun\DaData\Objects\BaseObject;
+use MoveMoveApp\DaData\Objects\BaseObject;
 
 /**
  * @property string       $value

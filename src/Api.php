@@ -1,9 +1,9 @@
 <?php
 
-namespace BotGun\DaData;
+namespace MoveMoveApp\DaData;
 
-use BotGun\DaData\Exceptions\DaDataMethodExceptions;
-use BotGun\DaData\Http\HttpClient;
+use MoveMoveApp\DaData\Exceptions\DaDataMethodExceptions;
+use MoveMoveApp\DaData\Http\HttpClient;
 
 class Api extends HttpClient
 {

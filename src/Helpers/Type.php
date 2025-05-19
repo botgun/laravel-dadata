@@ -1,9 +1,9 @@
 <?php
 
-namespace BotGun\DaData\Helpers;
+namespace MoveMoveApp\DaData\Helpers;
 
 use Dflydev\DotAccessData\Exception\DataException;
-use BotGun\DaData\Exceptions\DaDataIntegrationException;
+use MoveMoveApp\DaData\Exceptions\DaDataIntegrationException;
 use Throwable;
 
 class Type
@@ -124,7 +124,7 @@ class Type
         foreach ($types as $item) {
             // Check to Enum types
             if (count($checkToEnum = explode(':', $item)) == 2) {
-                if (class_exists($enum = "BotGun\\DaData\\Enums\\$checkToEnum[1]")) {
+                if (class_exists($enum = "MoveMoveApp\\DaData\\Enums\\$checkToEnum[1]")) {
                     return $enum::match($value);
                 }
             }
@@ -136,7 +136,7 @@ class Type
             }
         }
 
-        if (class_exists($class = "BotGun\\DaData\\Objects\\$type")) {
+        if (class_exists($class = "MoveMoveApp\\DaData\\Objects\\$type")) {
             return $class::create($value);
         }
 

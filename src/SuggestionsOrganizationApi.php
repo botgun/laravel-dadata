@@ -1,9 +1,9 @@
 <?php
 
-namespace BotGun\DaData;
+namespace MoveMoveApp\DaData;
 
-use BotGun\DaData\Http\Router;
-use BotGun\DaData\Traits\HasOrganizationMethod;
+use MoveMoveApp\DaData\Http\Router;
+use MoveMoveApp\DaData\Traits\HasOrganizationMethod;
 
 
 class SuggestionsOrganizationApi extends Api

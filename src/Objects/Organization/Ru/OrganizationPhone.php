@@ -1,9 +1,9 @@
 <?php
 
-namespace BotGun\DaData\Objects\Organization\Ru;
+namespace MoveMoveApp\DaData\Objects\Organization\Ru;
 
-use BotGun\DaData\Objects\BaseObject;
-use BotGun\DaData\Objects\Phone\Phone;
+use MoveMoveApp\DaData\Objects\BaseObject;
+use MoveMoveApp\DaData\Objects\Phone\Phone;
 
 /**
  * @property string|null $value

@@ -1,8 +1,8 @@
 <?php
 
-namespace BotGun\DaData\Objects\Name;
+namespace MoveMoveApp\DaData\Objects\Name;
 
-use BotGun\DaData\Objects\BaseObject;
+use MoveMoveApp\DaData\Objects\BaseObject;
 
 /**
  * @property string|null $source
