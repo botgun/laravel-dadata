@@ -1,9 +1,9 @@
 # <a href="https://MoveMoveApp.ru/" target="_blank"><img src="https://avatars.githubusercontent.com/u/121749444?s=400&u=682a6bac6ba993a2a90ec220cfa205540d9d684b&v=4" width="20"></a> DaData Laravel SDK Package
-[![Latest Stable Version](http://poser.pugx.org/MoveMoveApp/dadata/v)](https://packagist.org/packages/MoveMoveApp/dadata)
-[![Total Downloads](http://poser.pugx.org/MoveMoveApp/dadata/downloads)](https://packagist.org/packages/MoveMoveApp/dadata)
-[![Latest Unstable Version](http://poser.pugx.org/MoveMoveApp/dadata/v/unstable)](https://packagist.org/packages/MoveMoveApp/dadata)
-[![License](http://poser.pugx.org/MoveMoveApp/dadata/license)](https://packagist.org/packages/MoveMoveApp/dadata)
-[![PHP Version Require](http://poser.pugx.org/MoveMoveApp/dadata/require/php)](https://packagist.org/packages/MoveMoveApp/dadata)
+[![Latest Stable Version](http://poser.pugx.org/movemoveapp/laravel-dadata2/v)](https://packagist.org/packages/movemoveapp/laravel-dadata2)
+[![Total Downloads](http://poser.pugx.org/movemoveapp/laravel-dadata2/downloads)](https://packagist.org/packages/movemoveapp/laravel-dadata2)
+[![Latest Unstable Version](http://poser.pugx.org/movemoveapp/laravel-dadata2/v/unstable)](https://packagist.org/packages/movemoveapp/laravel-dadata2)
+[![License](http://poser.pugx.org/movemoveapp/laravel-dadata2/license)](https://packagist.org/packages/movemoveapp/laravel-dadata2)
+[![PHP Version Require](http://poser.pugx.org/movemoveapp/laravel-dadata2/require/php)](https://packagist.org/packages/movemoveapp/laravel-dadata2)
 
 DaData is an SDK designed to facilitate easy interaction with the DaData API, allowing seamless integration of DaData functionalities within your Laravel applications. This package supports address and company data management for Russia, Belarus, and Kazakhstan. `movemoveapp/laravel-dadata2` is the second version of the original [movemoveapp/laravel-dadata](https://github.com/movemoveapp/laravel-dadata) package, built with a new and improved approach.
 
