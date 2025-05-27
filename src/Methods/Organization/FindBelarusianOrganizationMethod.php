@@ -19,7 +19,7 @@ class FindBelarusianOrganizationMethod extends BaseMethod
 {
     protected string $method        = 'POST';
     protected string $entryPoint;
-    protected string $expect        = 'Organization\\By\\Organization';
+    protected string $expect        = 'ByOrganization';
     protected array  $parameters    = [
         'query'         => 'string',
     ];

@@ -19,7 +19,7 @@ class FindKazakhstanOrganizationMethod extends BaseMethod
 {
     protected string $method        = 'POST';
     protected string $entryPoint;
-    protected string $expect        = 'Organization\\Kz\\Organization';
+    protected string $expect        = 'KzOrganization';
     protected array  $parameters    = [
         'query'         => 'string',
     ];

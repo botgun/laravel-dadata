@@ -23,7 +23,7 @@ class AffiliatedOrganizationMethod extends BaseMethod
 {
     protected string $method        = 'POST';
     protected string $entryPoint;
-    protected string $expect        = 'Organization\\Ru\\Organization';
+    protected string $expect        = 'RuOrganization';
     protected array  $parameters    = [
         'query'         => 'string',
         'count'         => 'integer',
